@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cl_arquitectura_proyectoads_domain_Evento" items="${eventoes}" z="dYspwLhqKiI7UZVC8+5sgwznfDg=">
+        <table:table data="${eventoes}" id="l_cl_arquitectura_proyectoads_domain_Evento" path="/eventoes" z="n3yqzj38tmiQIii483cfpI/3B/o=">
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Evento_idCampana" property="idCampana" z="2Z01lUhHHZ0qmtlfDC8L+xZqZHc="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Evento_descripcion" property="descripcion" z="LiPpE9w3y/ItHl9Oz/Tp+BnUYME="/>
+        </table:table>
+    </page:list>
+</div>

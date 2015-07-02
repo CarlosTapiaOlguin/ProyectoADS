@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cl_arquitectura_proyectoads_domain_Curso" items="${cursoes}" z="JMfoZffnA9CoJMxKii2QmSFYsx8=">
+        <table:table data="${cursoes}" id="l_cl_arquitectura_proyectoads_domain_Curso" path="/cursoes" z="yePvfFmMcqgwYrsQqc3Xfu/rUDg=">
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Curso_idEscuela" property="idEscuela" z="9EoJEEk7tCV+oXF3t82xbn9KeZk="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Curso_nivel" property="nivel" z="F2c/ymN2EFuQjuVApVhCGr3X1a4="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Curso_letra" property="letra" z="4AqHvg1LibdJKytCxXNnU0k4CN4="/>
+        </table:table>
+    </page:list>
+</div>

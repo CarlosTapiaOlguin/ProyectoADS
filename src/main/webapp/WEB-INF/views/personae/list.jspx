@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_cl_arquitectura_proyectoads_domain_Persona" items="${personae}" z="u+E/h7YM+6oZHjO+LD/lkDmH6CA=">
+        <table:table data="${personae}" id="l_cl_arquitectura_proyectoads_domain_Persona" path="/personae" z="Cqwcwr19DN/8cCQYIUWNNxWnL0Q=">
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Persona_cursoProfesor" property="cursoProfesor" z="N3fzLnkmZhcODHMis8khWjMzU80="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Persona_mensajeEnvio" property="mensajeEnvio" z="LvYwY/Wlk6XKN/oLP5Gw+QQN/tg="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Persona_idTipoPersona" property="idTipoPersona" z="ybX6mQkDWxuXxN4DhVMcVEBAsWM="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Persona_idRol" property="idRol" z="WItt+j2/zkPwXJdMi/lNJQi+GtY="/>
+            <table:column id="c_cl_arquitectura_proyectoads_domain_Persona_idApoderado" property="idApoderado" z="zMr1J24baKpX3nzFxbrEje1zIQ8="/>
+        </table:table>
+    </page:list>
+</div>

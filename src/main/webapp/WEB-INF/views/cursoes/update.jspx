@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_cl_arquitectura_proyectoads_domain_Curso" modelAttribute="curso" path="/cursoes" versionField="none" z="YRI6SBNMGpd6vBHsSmrxLtChmf8=">
+        <field:simple field="clases" id="c_cl_arquitectura_proyectoads_domain_Curso_clases" messageCode="entity_reference_not_managed" messageCodeAttribute="Clase" z="+5bMwc7W1N1gnEjfFDM80U7QlOM="/>
+        <field:simple field="cursoProfesors" id="c_cl_arquitectura_proyectoads_domain_Curso_cursoProfesors" messageCode="entity_reference_not_managed" messageCodeAttribute="Curso Profesor" z="obY9OH+4AqFLakW5BPqDHFfy3tA="/>
+        <field:select field="idEscuela" id="c_cl_arquitectura_proyectoads_domain_Curso_idEscuela" itemValue="id" items="${escuelas}" path="/escuelas" z="UdjoKH3LIFeczMyUx3Vuuy/TXNI="/>
+        <field:input field="nivel" id="c_cl_arquitectura_proyectoads_domain_Curso_nivel" required="true" z="e7rtRFsTa6NO6eOgfGzyj8KMKAk="/>
+        <field:input field="letra" id="c_cl_arquitectura_proyectoads_domain_Curso_letra" required="true" z="sxxkekq5JHklegzhKOfCbUtDFy4="/>
+    </form:update>
+</div>

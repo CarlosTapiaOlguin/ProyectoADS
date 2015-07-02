@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_cl_arquitectura_proyectoads_domain_Clase" modelAttribute="clase" path="/clases" versionField="none" z="/QIicyY1+YCHQyKw0N6nBuI+5dI=">
+        <field:select field="idCurso" id="c_cl_arquitectura_proyectoads_domain_Clase_idCurso" itemValue="id" items="${cursoes}" path="/cursoes" z="D3OHd81OSII2LJ7w61d1aq8ceAk="/>
+        <field:input field="asignatura" id="c_cl_arquitectura_proyectoads_domain_Clase_asignatura" required="true" z="klvrxqnT7AZtlYq2kZSorw0gVNI="/>
+    </form:update>
+</div>

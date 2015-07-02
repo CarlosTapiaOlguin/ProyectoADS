@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cl_arquitectura_proyectoads_domain_Campana" object="${campana}" path="/campanas" z="FWYAN5+oWyolkYu/RDlsJ0mMlg4=">
+        <field:display field="idTurno" id="s_cl_arquitectura_proyectoads_domain_Campana_idTurno" object="${campana}" z="hiZFeE+ewaGJwOC9A4+QLvjd7fk="/>
+        <field:display field="nombre" id="s_cl_arquitectura_proyectoads_domain_Campana_nombre" object="${campana}" z="V16fMRnI9kUaHEdgt9cDip93ccg="/>
+    </page:show>
+</div>

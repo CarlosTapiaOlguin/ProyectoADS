@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_cl_arquitectura_proyectoads_domain_Mensaje" object="${mensaje}" path="/mensajes" z="EdzX7N0gHfkJwU1Jh3QjbXI25sk=">
+        <field:display field="idEvento" id="s_cl_arquitectura_proyectoads_domain_Mensaje_idEvento" object="${mensaje}" z="m7pH0YvyfqLx9Y/kB6PSeHOEut4="/>
+        <field:display field="idTipoMensaje" id="s_cl_arquitectura_proyectoads_domain_Mensaje_idTipoMensaje" object="${mensaje}" z="8EUZVeGLU7RblOcRpB3sDZm3Yco="/>
+        <field:display date="true" dateTimePattern="${mensaje_fechaenvio_date_format}" field="fechaEnvio" id="s_cl_arquitectura_proyectoads_domain_Mensaje_fechaEnvio" object="${mensaje}" z="6Ml+XTxFBl69pde0cnPZa/+aaxg="/>
+        <field:display field="contenido" id="s_cl_arquitectura_proyectoads_domain_Mensaje_contenido" object="${mensaje}" z="/FDTnZorHN/i223zw5S3KvnhFyM="/>
+    </page:show>
+</div>

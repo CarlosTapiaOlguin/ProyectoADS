@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_cl_arquitectura_proyectoads_domain_Campana" modelAttribute="campana" path="/campanas" versionField="none" z="dAg08wUZM20rUwNPQbBhFCfRN4E=">
+        <field:simple field="eventoes" id="c_cl_arquitectura_proyectoads_domain_Campana_eventoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Evento" z="TuJLzuGagyaRdrm3wRf565z940k="/>
+        <field:select field="idTurno" id="c_cl_arquitectura_proyectoads_domain_Campana_idTurno" itemValue="id" items="${turnoes}" path="/turnoes" z="ISG63qE0d3OuHgEmvBRBYy5m420="/>
+        <field:input field="nombre" id="c_cl_arquitectura_proyectoads_domain_Campana_nombre" required="true" z="/ZcQ1gYw+LvAoml0tRhSX8j9m/g="/>
+    </form:update>
+</div>

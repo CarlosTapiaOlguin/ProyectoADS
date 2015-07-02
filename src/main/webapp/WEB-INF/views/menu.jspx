@@ -1,5 +1,59 @@
-<div id="menu" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-	<jsp:directive.page contentType="text/html;charset=UTF-8" />
-	<jsp:output omit-xml-declaration="yes"/>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_evento" z="I3ePdo1PFP3Gnqs/t2tVrZ9Sb4M=">
+            <menu:item id="i_evento_new" messageCode="global_menu_new" url="/eventoes?form" z="4YYTeuSZjhbJFQxB8q05N+mjYJM="/>
+            <menu:item id="i_evento_list" messageCode="global_menu_list" url="/eventoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="qyxuF7Gp/xvZuFJ+JkgDdQTV/MM="/>
+        </menu:category>
+        <menu:category id="c_turno" z="wKwWXJaWB+CKOGH4wu+IDBXjTG4=">
+            <menu:item id="i_turno_new" messageCode="global_menu_new" url="/turnoes?form" z="dPg3kwO7cYsy7sljZjhZvGP5v0k="/>
+            <menu:item id="i_turno_list" messageCode="global_menu_list" url="/turnoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="dJ5xBzd7nk4RQTxUWoCykEFOZ5A="/>
+        </menu:category>
+        <menu:category id="c_rol" z="WyJ0DN0p4cfPsGF7WGHEFk6Ok1k=">
+            <menu:item id="i_rol_new" messageCode="global_menu_new" url="/rols?form" z="pci13zJkyKMJXhGhbCY9f9yBMb4="/>
+            <menu:item id="i_rol_list" messageCode="global_menu_list" url="/rols?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GQHH+mdvcxfHlFAlkR2gFwHsv1s="/>
+        </menu:category>
+        <menu:category id="c_mensaje" z="/z8EFX6PBUJoSZKfzMJGTros24c=">
+            <menu:item id="i_mensaje_new" messageCode="global_menu_new" url="/mensajes?form" z="Bg8B78AtOSfZx35jXtE44AL2luU="/>
+            <menu:item id="i_mensaje_list" messageCode="global_menu_list" url="/mensajes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Vei5khNLhkoZkntvP1llgv4HP2w="/>
+        </menu:category>
+        <menu:category id="c_escuela" z="2Nf+C4gkpQtPjkcLTqCteNCgFCw=">
+            <menu:item id="i_escuela_new" messageCode="global_menu_new" url="/escuelas?form" z="0qciJEbxOLmZwIzH9yLTQ3Y5GSE="/>
+            <menu:item id="i_escuela_list" messageCode="global_menu_list" url="/escuelas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YXVU8rW0TRFgXRzRP9tBiFA7Nhs="/>
+        </menu:category>
+        <menu:category id="c_campana" z="XM4IfMWkHPc075gGmfCzr7Od6N0=">
+            <menu:item id="i_campana_new" messageCode="global_menu_new" url="/campanas?form" z="gLe7m7fhqqD9YBzLPs3Oz8xGLdE="/>
+            <menu:item id="i_campana_list" messageCode="global_menu_list" url="/campanas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ahN0YtjpR697f+4RPIQKsKV6VbQ="/>
+        </menu:category>
+        <menu:category id="c_tipopersona" z="1ZnIro9cbPlUYxaGKERSthhTis4=">
+            <menu:item id="i_tipopersona_new" messageCode="global_menu_new" url="/tipopersonas?form" z="bjIKUmgVC6ZRo3Zaas5+Gqd1YPg="/>
+            <menu:item id="i_tipopersona_list" messageCode="global_menu_list" url="/tipopersonas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tKl4fjj96G602FLD3K5u8TG+kbI="/>
+        </menu:category>
+        <menu:category id="c_tipomensaje" z="jov2ROGZGPkPzMaFNTztXFElLX4=">
+            <menu:item id="i_tipomensaje_new" messageCode="global_menu_new" url="/tipomensajes?form" z="mVBjHFda2QICHKycuEaH1jr84vo="/>
+            <menu:item id="i_tipomensaje_list" messageCode="global_menu_list" url="/tipomensajes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ErOMuJIpMwO0fYnM0Clew67Ngi0="/>
+        </menu:category>
+        <menu:category id="c_mensajeenvio" z="8tB8xnbYF6nH/yQNuUD1swuf8IM=">
+            <menu:item id="i_mensajeenvio_new" messageCode="global_menu_new" url="/mensajeenvios?form" z="7taurHFR1rUqusR679yU8KBM9xA="/>
+            <menu:item id="i_mensajeenvio_list" messageCode="global_menu_list" url="/mensajeenvios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="BVXn+v+grySdKEPTnCXt9jY3Oqs="/>
+        </menu:category>
+        <menu:category id="c_cursoprofesor" z="zyZVDx/FQamSwH0+qF6DhRv6iK0=">
+            <menu:item id="i_cursoprofesor_new" messageCode="global_menu_new" url="/cursoprofesors?form" z="T/LWJrPOZGFInY00JBoqul2K/vE="/>
+            <menu:item id="i_cursoprofesor_list" messageCode="global_menu_list" url="/cursoprofesors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kXh9+c/+F8gcubG2+m0JdYmDors="/>
+        </menu:category>
+        <menu:category id="c_curso" z="HZkpr/mFg3Jt16a6Bb8jg2ec7GA=">
+            <menu:item id="i_curso_new" messageCode="global_menu_new" url="/cursoes?form" z="i5hb6h9BZQgF9RE9iqqRTA+wGak="/>
+            <menu:item id="i_curso_list" messageCode="global_menu_list" url="/cursoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="H5eRx2vxkuAYrT5z65L2KRROpNs="/>
+        </menu:category>
+        <menu:category id="c_clase" z="LQCgMUCojdqlmM/b+lZeqrYCFa4=">
+            <menu:item id="i_clase_new" messageCode="global_menu_new" url="/clases?form" z="MjNpxM3Ofc8QplmCAKvxj1V3ydE="/>
+            <menu:item id="i_clase_list" messageCode="global_menu_list" url="/clases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4xksGlgXewY6rQwz2A/TbvJnv3Y="/>
+        </menu:category>
+        <menu:category id="c_persona" z="HGx10uPnaEw3eOO50fIb9qf5jiI=">
+            <menu:item id="i_persona_new" messageCode="global_menu_new" url="/personae?form" z="7Y0KdFKrjpWljePDcf4RoDAeOUA="/>
+            <menu:item id="i_persona_list" messageCode="global_menu_list" url="/personae?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/MWcaTHST1kjwDWGXluGyXbYCJo="/>
+        </menu:category>
+    </menu:menu>
 </div>
